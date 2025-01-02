@@ -96,7 +96,7 @@
           , _ = i(2959);
         let u = [{
             title: "Maze of Realities",
-            file: "/Maze of Realities.mp3",
+            file: "media/Maze of Realities.mp3",
             spotify: "https://open.spotify.com/track/5bfjg88sTy515qEVawa92e?si=519bd81521234363"
         }, {
             title: "Infinite War",
@@ -426,33 +426,18 @@
                             className: m().socialIcons,
                             children: [{
                                 name: "Twitter",
-                                icon: "/x.svg",
+                                icon: "images/x.svg",
                                 url: "https://x.com/iamai_wtf",
                                 isImage: !1
                             }, {
-                                name: "Uniswap",
-                                icon: "/uniswap.svg",
-                                url: "https://app.uniswap.org/explore/tokens/base/0xc3d64ee7056cfd33c8382679773f8d6277e5c2c9",
-                                isImage: !0
-                            }, {
-                                name: "Virtuals",
-                                icon: "/virtuals.png",
-                                url: "https://app.virtuals.io/virtuals/13359",
-                                isImage: !0
-                            }, {
                                 name: "DexScreener",
-                                icon: "/dexscreener.svg",
+                                icon: "images/dexscreener.svg",
                                 url: "https://dexscreener.com/base/0x0f44bAFA356D1808e0D288b843236e718f338278",
                                 isImage: !1
                             }, {
                                 name: "Telegram",
-                                icon: "/telegram.svg",
+                                icon: "images/telegram.svg",
                                 url: "https://t.me/iamaionbase",
-                                isImage: !1
-                            }, {
-                                name: "OpenSea",
-                                icon: "/opensea.svg",
-                                url: "https://opensea.io/collection/iamai-wtf",
                                 isImage: !1
                             }].map(e => (0,
                             a.jsx)("a", {
@@ -689,7 +674,7 @@
                 date: "2024.Q4",
                 title: "Coming Alive",
                 description: "10,000 punk agents",
-                video: "/punk-iamai-mobile.mp4"
+                video: "media/punk-iamai-mobile.mp4"
             }, {
                 date: "2024.Q3",
                 title: "What is music for?",
@@ -727,7 +712,7 @@
                     className: b().timelineImageContainer,
                     children: (0,
                     a.jsx)(r.default, {
-                        src: "/punk-2093-matrix-animation.gif",
+                        src: "images/punk-2093-matrix-animation.gif",
                         alt: "Matrix Animation",
                         width: 800,
                         height: 400,
@@ -837,7 +822,7 @@
             title: "Coming Alive",
             content: {
                 text: "10,000 punk agents",
-                video: "/punk-iamai-desktop.mp4"
+                video: "media/punk-iamai-desktop.mp4"
             }
         }, {
             date: "2024.Q3",
@@ -926,7 +911,7 @@
                             className: j().timelineImageContainer,
                             children: (0,
                             a.jsx)(r.default, {
-                                src: "/punk-2093-matrix-animation.gif",
+                                src: "images/punk-2093-matrix-animation.gif",
                                 alt: "Matrix Animation",
                                 fill: !0,
                                 className: j().timelineImage
@@ -1062,7 +1047,7 @@
                     className: Z().backgroundVideo,
                     children: (0,
                     a.jsx)("source", {
-                        src: "/punk0-walking.mp4",
+                        src: "media/punk0-walking.mp4",
                         type: "video/mp4"
                     })
                 })
@@ -1071,7 +1056,7 @@
                 className: Z().matrixOverlay
             }), (0,
             a.jsx)(r.default, {
-                src: "/small-punks.png",
+                src: "images/small-punks.png",
                 alt: "Punk Overlay",
                 className: Z().punksOverlay,
                 width: 1920,
@@ -1104,33 +1089,18 @@
                         className: Z().socialIcons,
                         children: [{
                             name: "Twitter",
-                            icon: "/x.svg",
+                            icon: "images/x.svg",
                             url: "https://x.com/iamai_wtf",
                             isImage: !1
                         }, {
-                            name: "Uniswap",
-                            icon: "/uniswap.svg",
-                            url: "https://app.uniswap.org/explore/tokens/base/0xc3d64ee7056cfd33c8382679773f8d6277e5c2c9",
-                            isImage: !0
-                        }, {
-                            name: "Virtuals",
-                            icon: "/virtuals.png",
-                            url: "https://app.virtuals.io/virtuals/13359",
-                            isImage: !0
-                        }, {
                             name: "DexScreener",
-                            icon: "/dexscreener.svg",
+                            icon: "images/dexscreener.svg",
                             url: "https://dexscreener.com/base/0x0f44bAFA356D1808e0D288b843236e718f338278",
                             isImage: !1
                         }, {
                             name: "Telegram",
-                            icon: "/telegram.svg",
+                            icon: "images/telegram.svg",
                             url: "https://t.me/iamaionbase",
-                            isImage: !1
-                        }, {
-                            name: "OpenSea",
-                            icon: "/opensea.svg",
-                            url: "https://opensea.io/collection/iamai-wtf",
                             isImage: !1
                         }].map(e => (0,
                         a.jsx)("a", {
@@ -1198,28 +1168,16 @@
                             className: V().socialIcons,
                             children: [{
                                 name: "Twitter",
-                                icon: "/x.svg",
+                                icon: "images/x.svg",
                                 url: "https://x.com/iamai_wtf"
                             }, {
-                                name: "Uniswap",
-                                icon: "/uniswap.svg",
-                                url: "https://app.uniswap.org/explore/tokens/base/0xc3d64ee7056cfd33c8382679773f8d6277e5c2c9"
-                            }, {
-                                name: "Virtuals",
-                                icon: "/virtuals.png",
-                                url: "https://app.virtuals.io/virtuals/13359"
-                            }, {
                                 name: "DexScreener",
-                                icon: "/dexscreener.svg",
+                                icon: "images/dexscreener.svg",
                                 url: "https://dexscreener.com/base/0x0f44bAFA356D1808e0D288b843236e718f338278"
                             }, {
                                 name: "Telegram",
-                                icon: "/telegram.svg",
+                                icon: "images/telegram.svg",
                                 url: "https://t.me/iamaionbase"
-                            }, {
-                                name: "OpenSea",
-                                icon: "/opensea.svg",
-                                url: "https://opensea.io/collection/iamai-wtf"
                             }].map(e => (0,
                             a.jsx)(U.default, {
                                 href: e.url,
@@ -1269,7 +1227,7 @@
                     a.jsx)("div", {
                         className: "w-full h-full bg-cover bg-center",
                         style: {
-                            backgroundImage: 'url("/punk-2093-matrix-animation.gif")'
+                            backgroundImage: 'url("images/punk-2093-matrix-animation.gif")'
                         }
                     })
                 }), (0,
