@@ -415,12 +415,14 @@
                                 icon: "images/telegram.png",
                                 url: "https://t.me/aikoAI_world",
                                 isImage: !1
-                            }, {
-                                name: "Pumpfun",
-                                icon: "images/Pump_fun_logo.png",
-                                url: "link_Pumpfun",
-                                isImage: !1
-                            }, {
+                            }, 
+                            // {
+                            //     name: "Pumpfun",
+                            //     icon: "images/Pump_fun_logo.png",
+                            //     url: "link_Pumpfun",
+                            //     isImage: !1
+                            // }, 
+                            {
                                 name: "Aigentfi",
                                 icon: "images/aigentfi.jpg",
                                 url: "link_Aigentfi",
@@ -1086,12 +1088,14 @@
                             icon: "images/telegram.png",
                             url: "https://t.me/aikoAI_world",
                             isImage: !1
-                        },{
-                            name: "Pumpfun",
-                            icon: "images/Pump_fun_logo.png",
-                            url: "link_Pumpfun",
-                            isImage: !1
-                        },{
+                        },
+                        // {
+                        //     name: "Pumpfun",
+                        //     icon: "images/Pump_fun_logo.png",
+                        //     url: "link_Pumpfun",
+                        //     isImage: !1
+                        // },
+                        {
                             name: "Aigentfi",
                             icon: "images/aigentfi.jpg",
                             url: "link_Aigentfi",
@@ -1145,7 +1149,7 @@
                         }), (0,
                         a.jsx)("p", {
                             className: V().subtitle,
-                            children: "$AikoAI - Turn any NFT into an AI Agent."
+                            children: "$AikoAI"
                         }), (0,
                         a.jsx)("div", {
                             className: V().address,
@@ -1172,12 +1176,14 @@
                                 name: "Telegram",
                                 icon: "images/telegram.png",
                                 url: "https://t.me/aikoAI_world"
-                            },{
-                                name: "Pumpfun",
-                                icon: "images/Pump_fun_logo.png",
-                                url: "link_Pumpfun",
-                                isImage: !1
-                            },{
+                            },
+                            // {
+                            //     name: "Pumpfun",
+                            //     icon: "images/Pump_fun_logo.png",
+                            //     url: "link_Pumpfun",
+                            //     isImage: !1
+                            // },
+                            {
                                 name: "Aigentfi",
                                 icon: "images/aigentfi.jpg",
                                 url: "link_Aigentfi",
