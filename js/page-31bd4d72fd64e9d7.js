@@ -403,7 +403,7 @@
                             children: [{
                                 name: "Twitter",
                                 icon: "images/x.svg",
-                                url: "link_x",
+                                url: "https://x.com/aikoAI_world",
                                 isImage: !1
                             }, {
                                 name: "DexScreener",
@@ -413,7 +413,7 @@
                             }, {
                                 name: "Telegram",
                                 icon: "images/telegram.png",
-                                url: "link_tele",
+                                url: "https://t.me/aikoAI_world",
                                 isImage: !1
                             }, {
                                 name: "Pumpfun",
@@ -1074,7 +1074,7 @@
                         children: [{
                             name: "Twitter",
                             icon: "images/x.svg",
-                            url: "link_x",
+                            url: "https://x.com/aikoAI_world",
                             isImage: !1
                         }, {
                             name: "DexScreener",
@@ -1084,7 +1084,7 @@
                         }, {
                             name: "Telegram",
                             icon: "images/telegram.png",
-                            url: "link_tele",
+                            url: "https://t.me/aikoAI_world",
                             isImage: !1
                         },{
                             name: "Pumpfun",
@@ -1163,7 +1163,7 @@
                             children: [{
                                 name: "Twitter",
                                 icon: "images/x.svg",
-                                url: "link_x"
+                                url: "https://x.com/aikoAI_world"
                             }, {
                                 name: "DexScreener",
                                 icon: "images/dexscreener.svg",
@@ -1171,7 +1171,7 @@
                             }, {
                                 name: "Telegram",
                                 icon: "images/telegram.png",
-                                url: "link_tele"
+                                url: "https://t.me/aikoAI_world"
                             },{
                                 name: "Pumpfun",
                                 icon: "images/Pump_fun_logo.png",
