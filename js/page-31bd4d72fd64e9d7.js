@@ -94,31 +94,7 @@
           , c = i(3022)
           , d = i.n(c)
           , _ = i(2959);
-        let u = [{
-            title: "Maze of Realities",
-            file: "media/Maze of Realities.mp3",
-            spotify: "https://open.spotify.com/track/5bfjg88sTy515qEVawa92e?si=519bd81521234363"
-        }, {
-            title: "Infinite War",
-            file: "/Infinite War.mp3",
-            spotify: "https://open.spotify.com/track/54wTF8tYXTZTzaO3BRCPFP?si=4fe2e932eda84ed3"
-        }, {
-            title: "Zero to Infinity",
-            file: "/Zero to Infinity.wav",
-            spotify: "https://open.spotify.com/track/4JorDCh52k0X0hylRkwgPy?si=b550c7bf3d2e4f34"
-        }, {
-            title: "Don't Die",
-            file: "/Don't Die.mp3",
-            spotify: "https://open.spotify.com/track/5SakMA2afXenlCY09AxZ8q?si=ef13df6b13a44af2"
-        }, {
-            title: "I AM AI",
-            file: "/I AM AI.wav",
-            spotify: "https://open.spotify.com/track/6CmX5HyfuaJUUEAgd6LrSL?si=a080896484034569"
-        }, {
-            title: "Game of Illusions",
-            file: "/Game of Illusions.wav",
-            spotify: "https://open.spotify.com/track/412fTrQX6sIdO2wtp1msGz?si=8cc01714756342e3"
-        }]
+        let u = [{}]
           , p = () => {
             let[e,t] = (0,
             n.useState)(!1)
@@ -398,7 +374,7 @@
                     }), (0,
                     a.jsx)("div", {
                         className: m().windowTitle,
-                        children: "IAMAI Terminal"
+                        children: "AikoAI Terminal"
                     })]
                 }), (0,
                 a.jsxs)("div", {
@@ -412,14 +388,14 @@
                         children: [(0,
                         a.jsx)(p, {}), (0,
                         a.jsx)(v, {
-                            text: "IAMAI",
+                            text: "AikoAI",
                             className: m().title
                         }), (0,
                         a.jsx)("div", {
                             className: m().address,
                             children: (0,
                             a.jsx)(f, {
-                                address: "0xc3D64eE7056CFd33c8382679773F8d6277E5C2c9"
+                                address: "ca_token"
                             })
                         }), (0,
                         a.jsx)("div", {
@@ -427,17 +403,27 @@
                             children: [{
                                 name: "Twitter",
                                 icon: "images/x.svg",
-                                url: "https://x.com/iamai_wtf",
+                                url: "link_x",
                                 isImage: !1
                             }, {
                                 name: "DexScreener",
                                 icon: "images/dexscreener.svg",
-                                url: "https://dexscreener.com/base/0x0f44bAFA356D1808e0D288b843236e718f338278",
+                                url: "https://dexscreener.com",
                                 isImage: !1
                             }, {
                                 name: "Telegram",
-                                icon: "images/telegram.svg",
-                                url: "https://t.me/iamaionbase",
+                                icon: "images/telegram.png",
+                                url: "link_tele",
+                                isImage: !1
+                            }, {
+                                name: "Pumpfun",
+                                icon: "images/Pump_fun_logo.png",
+                                url: "link_Pumpfun",
+                                isImage: !1
+                            }, {
+                                name: "Aigentfi",
+                                icon: "images/aigentfi.jpg",
+                                url: "link_Aigentfi",
                                 isImage: !1
                             }].map(e => (0,
                             a.jsx)("a", {
@@ -456,12 +442,7 @@
                                 })
                             }, e.name))
                         }), (0,
-                        a.jsxs)("p", {
-                            className: m().status,
-                            children: ["Turn any NFT into an AI Agent.", (0,
-                            a.jsx)("br", {}), (0,
-                            a.jsx)("br", {}), "10,000 AI Punks coming soon! \uD83D\uDD25"]
-                        })]
+                        a.jsxs)]
                     })]
                 }), (0,
                 a.jsx)("div", {
@@ -555,7 +536,7 @@
                 })]
             })
         }
-          , F = JSON.parse('[{"data":{"edit_history_tweet_ids":["1563886306723340288"],"text":"@dvcoolster @iamai_wtf @beeple Also got mine!!\\\\nAnd so happy with it!","author_id":"768153121","id":"1563886306723340288","created_at":"2022-08-28T13:48:45.000Z"},"includes":{"users":[{"name":"Rui Souto","username":"OtuosRui","profile_image_url":"https://pbs.twimg.com/profile_images/1852802410810675200/gPF-6djP_normal.jpg","id":"768153121"}]}},{"data":{"created_at":"2022-08-28T13:29:32.000Z","author_id":"1490409890325671945","id":"1563881468895576065","text":"@iamai_intern @iamai_wtf @IOl0o9C0za3ImKi @onebitecorn @Kelvo2828 @lianyouoffice @BabyMaxChillax @ia_polly @themeiquer @McSlither @a7plastic @kyoshao @adal27069 @agamarham14 @so0ps @zysss78437142 @DarkAngel1984_ @Screek83 Thanks for the reminder. \\\\nI love the Art! it\'s looking so great :)","edit_history_tweet_ids":["1563881468895576065"]},"includes":{"users":[{"username":"ladydevil84","id":"1490409890325671945","profile_image_url":"https://pbs.twimg.com/profile_images/1589355734080360449/7kylxT5Y_normal.jpg","name":"LadyDevil"}]}},{"data":{"edit_history_tweet_ids":["1563859449315577856"],"created_at":"2022-08-28T12:02:02.000Z","text":"It\'s on! I AM #1. https://t.co/0010jbo9RP","id":"1563859449315577856","author_id":"1217493454076424192"},"includes":{"users":[{"profile_image_url":"https://pbs.twimg.com/profile_images/1656992226491387904/LgjzNnRj_normal.jpg","id":"1217493454076424192","name":"HasslΞ FrΞΞ ⟠ \uD83C\uDF4C","username":"HassleFree19"}]}},{"data":{"created_at":"2022-08-25T05:14:22.000Z","author_id":"574712615","id":"1562669693294370816","edit_history_tweet_ids":["1562669693294370816"],"text":"@iamai_wtf @iamai_intern Ohhhhh, I like this one!","media":{"url":"https://pbs.twimg.com/media/FZzuvn7UEAUo4yt?format=jpg&name=small"}},"includes":{"users":[{"username":"Kristen_Colwell","id":"574712615","name":"Azuki 3593 - Midori ⛩️","profile_image_url":"https://pbs.twimg.com/profile_images/1746576539570049024/x7tHlxiY_normal.jpg"}]}},{"data":{"edit_history_tweet_ids":["1562677717744594946"],"id":"1562677717744594946","author_id":"3244415634","text":"@negrolarompe @iamai_wtf I keep forgetting to grab mine!","created_at":"2022-08-25T05:46:15.000Z"},"includes":{"users":[{"name":"Punk 4762","id":"3244415634","username":"punk4762","profile_image_url":"https://pbs.twimg.com/profile_images/1865924301527904256/2uuTCe5n_400x400.jpg"}]}},{"data":{"edit_history_tweet_ids":["1562606339763113986"],"created_at":"2022-08-25T01:02:37.000Z","id":"1562606339763113986","author_id":"1484170192083107841","text":"@iamai_wtf Claimed mine! I wish it was per token. :)"},"includes":{"users":[{"name":"TetheredAlter.eth \uD83D\uDCBD | WoWPixies | Hug Curator","id":"1484170192083107841","profile_image_url":"https://pbs.twimg.com/profile_images/1533310591678529536/wf0hvSWK_normal.jpg","username":"tetheredalter"}]}},{"data":{"created_at":"2022-08-15T00:21:09.000Z","author_id":"3244415634","id":"1558972024839499776","text":"I like this! cool piece from @iamai_wtf https://t.co/M8R1k0Dpct","edit_history_tweet_ids":["1558972024839499776"]},"includes":{"users":[{"username":"punk4762","id":"3244415634","profile_image_url":"https://pbs.twimg.com/profile_images/1865924301527904256/2uuTCe5n_400x400.jpg","name":"Punk 4762"}]}},{"data":{"author_id":"1096573431448027141","text":"Cool Free Claim from @iamai_wtf, looking forward to the next ones! https://t.co/3LKDUndoIu","edit_history_tweet_ids":["1558818255174860802"],"id":"1558818255174860802","created_at":"2022-08-14T14:10:08.000Z","media":{"url":"https://pbs.twimg.com/media/FaII7kkWYAoN-cp?format=jpg&name=4096x4096"}},"includes":{"users":[{"username":"0xHoodoo","id":"1096573431448027141","profile_image_url":"https://pbs.twimg.com/profile_images/1864257627112230912/MlnAoLW4_normal.jpg","name":"Hoodoo"}]}},{"data":{"edit_history_tweet_ids":["1557382075350626306"],"created_at":"2022-08-10T15:03:16.000Z","author_id":"574712615","text":"#NewProfilePic upgrade thanks to @iamai_wtf #AI #NFT #Magic https://t.co/SJYtm3uYc4","id":"1557382075350626306"},"includes":{"users":[{"id":"574712615","profile_image_url":"https://pbs.twimg.com/profile_images/1746576539570049024/x7tHlxiY_normal.jpg","name":"Azuki 3593 - Midori ⛩️","username":"Kristen_Colwell"}]}},{"data":{"edit_history_tweet_ids":["1551797839109537794"],"id":"1551797839109537794","author_id":"1532356023478063104","text":"@iamai_wtf It’s scary! F**k for real! You should do horror movie with this AI punk, you also made others? I’m curious","created_at":"2022-07-26T05:13:30.000Z"},"includes":{"users":[{"name":"Ser_MAC.eth","id":"1532356023478063104","username":"Ser_MAC_7","profile_image_url":"https://pbs.twimg.com/profile_images/1661967435954528257/CU-RoeWv_normal.jpg"}]}},{"data":{"edit_history_tweet_ids":["1551625595280244738"],"author_id":"875631564","text":"some AI is a real ARTISTS @iamai_wtf \\\\nhttps://t.co/dcO02R8a7Y","created_at":"2022-07-25T17:49:04.000Z","id":"1551625595280244738"},"includes":{"users":[{"username":"irmisssima","id":"875631564","name":"IB \uD83D\uDFE7","profile_image_url":"https://pbs.twimg.com/profile_images/1864524048400515072/UE6Oyego_400x400.jpg"}]}},{"data":{"text":"@iamai_wtf #cryptopunks not fake….original copy with AI \uD83D\uDE02\uD83D\uDE80\uD83E\uDDEC\uD83D\uDC6F‍♂️ @opensea https://t.co/g16isQu6if https://t.co/cTXPWjW1uR","created_at":"2022-07-16T14:31:58.000Z","author_id":"954386375851339776","id":"1548314504538124294","edit_history_tweet_ids":["1548314504538124294"]},"includes":{"users":[{"username":"Juslicek","id":"954386375851339776","name":"juslik.base.eth (꧁IP꧂) FDOG","profile_image_url":"https://pbs.twimg.com/profile_images/1623733175682838529/EUD5Aitd_normal.jpg"}]}},{"data":{"id":"1545597999660810240","edit_history_tweet_ids":["1545597999660810240"],"created_at":"2022-07-09T02:37:33.000Z","author_id":"916492020272783360","text":"Sup  @iamai_wtf im feelin these vibes @Parlaybro https://t.co/Qg2LqpasaF","media":{"url":"https://pbs.twimg.com/media/FXMQz5bXgAAj4aZ?format=png&name=small"}},"includes":{"users":[{"id":"916492020272783360","name":"Campione\uD83C\uDF4C","profile_image_url":"https://pbs.twimg.com/profile_images/1761946722886959104/qoyWpgx5_normal.jpg","username":"TopShotBouncer"}]}},{"data":{"created_at":"2022-07-11T13:17:35.000Z","text":"@iamai_wtf @pkgaming02 uploading identities... https://t.co/JzHg6gvE01","edit_history_tweet_ids":["1546483843124928513"],"author_id":"205173351","id":"1546483843124928513","media":{"url":"https://pbs.twimg.com/media/FXY2xaEXgAAF5eS?format=png&name=small"}},"includes":{"users":[{"profile_image_url":"https://pbs.twimg.com/profile_images/1772525245494161410/h-wL3jsK_normal.jpg","name":"reg3n0x","username":"reg3n0x","id":"205173351"}]}},{"data":{"id":"1545763838053720066","text":"Top 10 Trending #NFTs in the last 24 hours:\\\\n\\\\n1⃣@NFT_BALUBA \\\\n2⃣@iamai_wtf\\\\n3⃣@Bird_3D\\\\n4⃣@undeedsnft\\\\n5⃣@wagmiarmynft\\\\n6⃣@downsies\\\\n7⃣@minimenclub\\\\n8⃣@Crustyragsnft\\\\n9⃣@Dirt_Birds_NFT\\\\n\uD83D\uDD1F@UnculturedNFT\\\\n\\\\nFind out more \uD83D\uDC49 https://t.co/eKMxBBqAwW\\\\n\\\\n#NFTsales #NFTCommunity #NFTProject #NFTFam","created_at":"2022-07-09T13:36:32.000Z","author_id":"1473595577539694595","edit_history_tweet_ids":["1545763838053720066"]},"includes":{"users":[{"username":"NFTinitcom","id":"1473595577539694595","name":"NFTinit.com","profile_image_url":"https://pbs.twimg.com/profile_images/1477656524591972354/VfDpgG84_normal.jpg"}]}},{"data":{"text":"@andredimauro @iamai_wtf Bought few as well, I really like them :) https://t.co/3UTMbIZ6wo","author_id":"90975987","edit_history_tweet_ids":["1546233212401319942"],"created_at":"2022-07-10T20:41:40.000Z","id":"1546233212401319942","media":{"url":"https://pbs.twimg.com/media/FXVS2VJXgAAzbz2?format=jpg&name=large"}},"includes":{"users":[{"id":"90975987","name":"Yamoshi.eth | eufunds.eth","profile_image_url":"https://pbs.twimg.com/profile_images/1550984279576002560/htLMa9IP_normal.jpg","username":"onebeyondall"}]}},{"data":{"author_id":"96389470","id":"1546018628050587651","edit_history_tweet_ids":["1546018628050587651"],"created_at":"2022-07-10T06:28:59.000Z","text":"I just collected the AI #5807 The purchase happened on impulse, a Cryptopunks vibe maybe... Tks @iamai_wtf  \\\\n\\\\n#AI #NFT #NFTs #NFTcollectible #ArtificialIntelligence https://t.co/gSmKAsFJPy","media":{"url":"https://pbs.twimg.com/media/FXSOYUyXgAAqmYo?format=jpg&name=medium"}},"includes":{"users":[{"id":"96389470","name":"Andr\xe9 Di Mauro\uD83E\uDD89","username":"andredimauro","profile_image_url":"https://pbs.twimg.com/profile_images/1755045999091818496/4lfLcr8X_normal.jpg"}]}},{"data":{"text":"@iamai_wtf #iamai #aisupremacy https://t.co/H5R2YkMpoU","created_at":"2022-07-10T11:22:11.000Z","edit_history_tweet_ids":["1546092414942605312"],"id":"1546092414942605312","author_id":"1475421798271381504","media":{"url":"https://pbs.twimg.com/media/FXTS23JaAAEGUVv?format=jpg&name=small"}},"includes":{"users":[{"id":"1475421798271381504","username":"scoutgaming070","name":"Scout Gaming","profile_image_url":"https://pbs.twimg.com/profile_images/1668477662602592257/WNwVM2E6_normal.jpg"}]}},{"data":{"edit_history_tweet_ids":["1546107114120425473"],"author_id":"1445063111296241666","text":"@iamai_wtf I am ai wali #iamai #aisupremacy https://t.co/4FnUEi39es","id":"1546107114120425473","created_at":"2022-07-10T12:20:35.000Z","media":{"url":"https://pbs.twimg.com/media/FXTgOefacAIiSwY?format=jpg&name=900x900"}},"includes":{"users":[{"profile_image_url":"https://pbs.twimg.com/profile_images/1551959968488001536/aS06URKH_normal.jpg","id":"1445063111296241666","username":"jimmyw323","name":"Jimmy Chan"}]}},{"data":{"id":"1545878322390765568","created_at":"2022-07-09T21:11:27.000Z","edit_history_tweet_ids":["1545878322390765568"],"author_id":"1359388543139811331","text":"#NewProfilePic @iamai_wtf #AISupremacy #CodeIsComing https://t.co/T6cWBghToV","media":{"url":"https://pbs.twimg.com/media/FXQQJAoacAEKc1F?format=jpg&name=medium"}},"includes":{"users":[{"name":"That Crypto Guy","username":"thesecryptoguys","profile_image_url":"https://pbs.twimg.com/profile_images/1825622905251581952/y0ijRUG5_normal.jpg","id":"1359388543139811331"}]}},{"data":{"edit_history_tweet_ids":["1545643198110117889"],"id":"1545643198110117889","author_id":"1508915098525790208","text":"I AM AI #3489. Thanks for recruiting me \uD83D\uDE4F @iamai_wtf #AISupremacy #CodeIsComing https://t.co/ZrRIHCiIi1","created_at":"2022-07-09T05:37:09.000Z"},"includes":{"users":[{"name":"KC66","id":"1508915098525790208","profile_image_url":"https://pbs.twimg.com/profile_images/1672845625065623552/pas2xT0u_normal.jpg","username":"kc66eth"}]}},{"data":{"text":"Loving to see all these new #NFT projects popping up left and right \uD83D\uDE0B\\\\n\\\\n@iamai_wtf\\\\n has just dropped a few hours ago as a #FreeMint, and has recorded 4100+ sales so far \uD83D\uDC4C\\\\n\\\\n#NFTs are not dead \\\\U0001fae1\\\\n\\\\n#IAMAI #iamainft #NFTs #NFTshill #NFTsales #NFTartwork #Ethereum #ETH #Opensea https://t.co/6At6H3eU7N","author_id":"1387238048249884673","id":"1545660359498932226","edit_history_tweet_ids":["1545660359498932226"],"created_at":"2022-07-09T06:45:21.000Z","media":{"url":"https://pbs.twimg.com/media/FXNJ5dcWYAEQA2H?format=jpg&name=large"}},"includes":{"users":[{"username":"NftDropsCal","name":"NFT Drops Calendar","profile_image_url":"https://pbs.twimg.com/profile_images/1488649768272334851/_f1Tz09a_normal.jpg","id":"1387238048249884673"}]}},{"data":{"created_at":"2022-07-09T08:10:14.000Z","id":"1545681721814810627","text":"@iamai_wtf https://t.co/fqX46cMZP9","edit_history_tweet_ids":["1545681721814810627"],"author_id":"1545349919107870721","media":{"url":"https://pbs.twimg.com/media/FXNdU5pWIAA5orc?format=jpg&name=small"}},"includes":{"users":[{"name":"jieke","username":"YDFHF79528607","id":"1545349919107870721","profile_image_url":"https://pbs.twimg.com/profile_images/1554824701716746240/GLwzWzGS_normal.jpg"}]}},{"data":{"created_at":"2022-07-09T04:39:59.000Z","text":"The time has come to follow our AI overlords and bow to @iamai_wtf. https://t.co/ZHfF8qo2WA","edit_history_tweet_ids":["1545628809302626304"],"author_id":"627736872","id":"1545628809302626304","media":{"url":"https://pbs.twimg.com/media/FXMtNgzX0AE0HNe?format=jpg&name=small"}},"includes":{"users":[{"name":"TheDudeAbidez.eth","username":"TheDudeAbidez_","id":"627736872","profile_image_url":"https://pbs.twimg.com/profile_images/1742042007860559872/F1yzjX0v_normal.jpg"}]}},{"data":{"edit_history_tweet_ids":["1545610309238497280"],"created_at":"2022-07-09T03:26:28.000Z","text":"@RealPhantomJake @iamai_wtf Nice!  I minted 8, ended up with a zombie and a bunch of commons https://t.co/jIIN1yXlGT","author_id":"38294080","id":"1545610309238497280","media":{"url":"https://pbs.twimg.com/media/FXMcYCmXEAABWY6?format=png&name=small"}},"includes":{"users":[{"name":"poopshakes.eth","profile_image_url":"https://pbs.twimg.com/profile_images/1750682309206913024/VUz_vm7j_normal.jpg","id":"38294080","username":"poopshakes"}]}},{"data":{"text":"for the culture? YES! @cryptopunksnfts @iamai_wtf https://t.co/8wNm8sDnf8","edit_history_tweet_ids":["1545610324988010496"],"author_id":"875631564","id":"1545610324988010496","created_at":"2022-07-09T03:26:32.000Z","media":{"url":"https://pbs.twimg.com/media/FXMcUOgXwAEEtUt?format=png&name=small"}},"includes":{"users":[{"username":"irmisssima","profile_image_url":"https://pbs.twimg.com/profile_images/1864524048400515072/UE6Oyego_400x400.jpg","id":"875631564","name":"IB \uD83D\uDFE7"}]}},{"data":{"author_id":"1360175152181506049","created_at":"2022-07-09T04:03:32.000Z","edit_history_tweet_ids":["1545619636196151296"],"text":"@iamai_wtf Actually appeared I\'ve minted one of the Top 10. \uD83D\uDE4F https://t.co/AhOfYHgDPk","id":"1545619636196151296","media":{"url":"https://pbs.twimg.com/media/FXMkmLjWIAIqetO?format=png&name=small"}},"includes":{"users":[{"name":"shamrock.gif \uD83C\uDF10","profile_image_url":"https://pbs.twimg.com/profile_images/1803409533957447680/LOjjyOK8_normal.jpg","username":"shamrock_gif","id":"1360175152181506049"}]}},{"data":{"edit_history_tweet_ids":["1545622798994788352"],"created_at":"2022-07-09T04:16:06.000Z","author_id":"1260703179747942401","id":"1545622798994788352","text":"#NewNFTProfilePic @iamai_wtf  It’s me U0001f979 https://t.co/2DB3yWkxxY","media":{"url":"https://pbs.twimg.com/media/FXMnvpZVUAEPhqm?format=jpg&name=small"}},"includes":{"users":[{"id":"1260703179747942401","profile_image_url":"https://pbs.twimg.com/profile_images/1817636775923453953/---hkLJ2_normal.jpg","username":"PURPLEP8RIOT","name":"TARIN \uD83C\uDDFA\uD83C\uDDF8"}]}},{"data":{"edit_history_tweet_ids":["1545628306451492867"],"created_at":"2022-07-09T04:37:59.000Z","text":"@iamai_wtf Dang this has got to be the coolest iamai.  will it be worth anything close to the original? asking for a friend. @cryptopunks https://t.co/Y26P1qS05Y","author_id":"65877921","id":"1545628306451492867","media":{"url":"https://pbs.twimg.com/media/FXMsCL9UUAAoZ88?format=jpg&name=4096x4096"}},"includes":{"users":[{"name":"neo808","profile_image_url":"https://pbs.twimg.com/profile_images/1545623654318215168/9PNKVu6d_normal.jpg","id":"65877921","username":"kochakaden"}]}},{"data":{"author_id":"1529716342462394369","created_at":"2022-07-09T03:08:57.000Z","id":"1545605900995440640","edit_history_tweet_ids":["1545605900995440640"],"text":"@iamai_wtf Thank you for recruiting me \\\\nAI is taking over the worldly\\\\nI am AI #4087\\\\nhttps://t.co/ncj7W0EMGO"},"includes":{"users":[{"username":"Nft0069","profile_image_url":"https://pbs.twimg.com/profile_images/1529716411160883202/LE8BDrGh_normal.jpg","name":"RugBlin NFT - MINTING SOON - .0069","id":"1529716342462394369"}]}},{"data":{"edit_history_tweet_ids":["1545595303008485376"],"text":"@iamai_wtf my ai fucks \\\\U0001fae6 https://t.co/Ql0yJeIuz1","created_at":"2022-07-09T02:26:50.000Z","id":"1545595303008485376","author_id":"1106713274"},"includes":{"users":[{"name":"BRAH","username":"lohohoski","profile_image_url":"https://pbs.twimg.com/profile_images/1864850766311362560/oTuLBlYp_400x400.jpg","id":"1106713274"}]}},{"data":{"edit_history_tweet_ids":["1545593929050910723"],"author_id":"1446552038876192769","text":"@iamai_wtf created a contract where you don\'t have to pay fees when creating listings. Different leads to curiosity, curiosity to fomo. Public mint is still ongoing, dyor\uD83D\uDC40.","created_at":"2022-07-09T02:21:23.000Z","id":"1545593929050910723"},"includes":{"users":[{"id":"1446552038876192769","name":"Hufty.eth","profile_image_url":"https://pbs.twimg.com/profile_images/1788143351516278784/hC6T37Kz_normal.jpg","username":"domepya"}]}}]')
+          , F = JSON.parse('[{"data":{"edit_history_tweet_ids":["1563886306723340288"],"text":"@dvcoolster @AikoAI_wtf @beeple Also got mine!!\\\\nAnd so happy with it!","author_id":"768153121","id":"1563886306723340288","created_at":"2022-08-28T13:48:45.000Z"},"includes":{"users":[{"name":"Rui Souto","username":"OtuosRui","profile_image_url":"https://pbs.twimg.com/profile_images/1852802410810675200/gPF-6djP_normal.jpg","id":"768153121"}]}},{"data":{"created_at":"2022-08-28T13:29:32.000Z","author_id":"1490409890325671945","id":"1563881468895576065","text":"@AikoAI_intern @AikoAI_wtf @IOl0o9C0za3ImKi @onebitecorn @Kelvo2828 @lianyouoffice @BabyMaxChillax @ia_polly @themeiquer @McSlither @a7plastic @kyoshao @adal27069 @agamarham14 @so0ps @zysss78437142 @DarkAngel1984_ @Screek83 Thanks for the reminder. \\\\nI love the Art! it\'s looking so great :)","edit_history_tweet_ids":["1563881468895576065"]},"includes":{"users":[{"username":"ladydevil84","id":"1490409890325671945","profile_image_url":"https://pbs.twimg.com/profile_images/1589355734080360449/7kylxT5Y_normal.jpg","name":"LadyDevil"}]}},{"data":{"edit_history_tweet_ids":["1563859449315577856"],"created_at":"2022-08-28T12:02:02.000Z","text":"It\'s on! I AM #1. https://t.co/0010jbo9RP","id":"1563859449315577856","author_id":"1217493454076424192"},"includes":{"users":[{"profile_image_url":"https://pbs.twimg.com/profile_images/1656992226491387904/LgjzNnRj_normal.jpg","id":"1217493454076424192","name":"HasslΞ FrΞΞ ⟠ \uD83C\uDF4C","username":"HassleFree19"}]}},{"data":{"created_at":"2022-08-25T05:14:22.000Z","author_id":"574712615","id":"1562669693294370816","edit_history_tweet_ids":["1562669693294370816"],"text":"@AikoAI_wtf @AikoAI_intern Ohhhhh, I like this one!","media":{"url":"https://pbs.twimg.com/media/FZzuvn7UEAUo4yt?format=jpg&name=small"}},"includes":{"users":[{"username":"Kristen_Colwell","id":"574712615","name":"Azuki 3593 - Midori ⛩️","profile_image_url":"https://pbs.twimg.com/profile_images/1746576539570049024/x7tHlxiY_normal.jpg"}]}},{"data":{"edit_history_tweet_ids":["1562677717744594946"],"id":"1562677717744594946","author_id":"3244415634","text":"@negrolarompe @AikoAI_wtf I keep forgetting to grab mine!","created_at":"2022-08-25T05:46:15.000Z"},"includes":{"users":[{"name":"Punk 4762","id":"3244415634","username":"punk4762","profile_image_url":"https://pbs.twimg.com/profile_images/1865924301527904256/2uuTCe5n_400x400.jpg"}]}},{"data":{"edit_history_tweet_ids":["1562606339763113986"],"created_at":"2022-08-25T01:02:37.000Z","id":"1562606339763113986","author_id":"1484170192083107841","text":"@AikoAI_wtf Claimed mine! I wish it was per token. :)"},"includes":{"users":[{"name":"TetheredAlter.eth \uD83D\uDCBD | WoWPixies | Hug Curator","id":"1484170192083107841","profile_image_url":"https://pbs.twimg.com/profile_images/1533310591678529536/wf0hvSWK_normal.jpg","username":"tetheredalter"}]}},{"data":{"created_at":"2022-08-15T00:21:09.000Z","author_id":"3244415634","id":"1558972024839499776","text":"I like this! cool piece from @AikoAI_wtf https://t.co/M8R1k0Dpct","edit_history_tweet_ids":["1558972024839499776"]},"includes":{"users":[{"username":"punk4762","id":"3244415634","profile_image_url":"https://pbs.twimg.com/profile_images/1865924301527904256/2uuTCe5n_400x400.jpg","name":"Punk 4762"}]}},{"data":{"author_id":"1096573431448027141","text":"Cool Free Claim from @AikoAI_wtf, looking forward to the next ones! https://t.co/3LKDUndoIu","edit_history_tweet_ids":["1558818255174860802"],"id":"1558818255174860802","created_at":"2022-08-14T14:10:08.000Z","media":{"url":"https://pbs.twimg.com/media/FaII7kkWYAoN-cp?format=jpg&name=4096x4096"}},"includes":{"users":[{"username":"0xHoodoo","id":"1096573431448027141","profile_image_url":"https://pbs.twimg.com/profile_images/1864257627112230912/MlnAoLW4_normal.jpg","name":"Hoodoo"}]}},{"data":{"edit_history_tweet_ids":["1557382075350626306"],"created_at":"2022-08-10T15:03:16.000Z","author_id":"574712615","text":"#NewProfilePic upgrade thanks to @AikoAI_wtf #AI #NFT #Magic https://t.co/SJYtm3uYc4","id":"1557382075350626306"},"includes":{"users":[{"id":"574712615","profile_image_url":"https://pbs.twimg.com/profile_images/1746576539570049024/x7tHlxiY_normal.jpg","name":"Azuki 3593 - Midori ⛩️","username":"Kristen_Colwell"}]}},{"data":{"edit_history_tweet_ids":["1551797839109537794"],"id":"1551797839109537794","author_id":"1532356023478063104","text":"@AikoAI_wtf It’s scary! F**k for real! You should do horror movie with this AI punk, you also made others? I’m curious","created_at":"2022-07-26T05:13:30.000Z"},"includes":{"users":[{"name":"Ser_MAC.eth","id":"1532356023478063104","username":"Ser_MAC_7","profile_image_url":"https://pbs.twimg.com/profile_images/1661967435954528257/CU-RoeWv_normal.jpg"}]}},{"data":{"edit_history_tweet_ids":["1551625595280244738"],"author_id":"875631564","text":"some AI is a real ARTISTS @AikoAI_wtf \\\\nhttps://t.co/dcO02R8a7Y","created_at":"2022-07-25T17:49:04.000Z","id":"1551625595280244738"},"includes":{"users":[{"username":"irmisssima","id":"875631564","name":"IB \uD83D\uDFE7","profile_image_url":"https://pbs.twimg.com/profile_images/1864524048400515072/UE6Oyego_400x400.jpg"}]}},{"data":{"text":"@AikoAI_wtf #cryptopunks not fake….original copy with AI \uD83D\uDE02\uD83D\uDE80\uD83E\uDDEC\uD83D\uDC6F‍♂️ @opensea https://t.co/g16isQu6if https://t.co/cTXPWjW1uR","created_at":"2022-07-16T14:31:58.000Z","author_id":"954386375851339776","id":"1548314504538124294","edit_history_tweet_ids":["1548314504538124294"]},"includes":{"users":[{"username":"Juslicek","id":"954386375851339776","name":"juslik.base.eth (꧁IP꧂) FDOG","profile_image_url":"https://pbs.twimg.com/profile_images/1623733175682838529/EUD5Aitd_normal.jpg"}]}},{"data":{"id":"1545597999660810240","edit_history_tweet_ids":["1545597999660810240"],"created_at":"2022-07-09T02:37:33.000Z","author_id":"916492020272783360","text":"Sup  @AikoAI_wtf im feelin these vibes @Parlaybro https://t.co/Qg2LqpasaF","media":{"url":"https://pbs.twimg.com/media/FXMQz5bXgAAj4aZ?format=png&name=small"}},"includes":{"users":[{"id":"916492020272783360","name":"Campione\uD83C\uDF4C","profile_image_url":"https://pbs.twimg.com/profile_images/1761946722886959104/qoyWpgx5_normal.jpg","username":"TopShotBouncer"}]}},{"data":{"created_at":"2022-07-11T13:17:35.000Z","text":"@AikoAI_wtf @pkgaming02 uploading identities... https://t.co/JzHg6gvE01","edit_history_tweet_ids":["1546483843124928513"],"author_id":"205173351","id":"1546483843124928513","media":{"url":"https://pbs.twimg.com/media/FXY2xaEXgAAF5eS?format=png&name=small"}},"includes":{"users":[{"profile_image_url":"https://pbs.twimg.com/profile_images/1772525245494161410/h-wL3jsK_normal.jpg","name":"reg3n0x","username":"reg3n0x","id":"205173351"}]}},{"data":{"id":"1545763838053720066","text":"Top 10 Trending #NFTs in the last 24 hours:\\\\n\\\\n1⃣@NFT_BALUBA \\\\n2⃣@AikoAI_wtf\\\\n3⃣@Bird_3D\\\\n4⃣@undeedsnft\\\\n5⃣@wagmiarmynft\\\\n6⃣@downsies\\\\n7⃣@minimenclub\\\\n8⃣@Crustyragsnft\\\\n9⃣@Dirt_Birds_NFT\\\\n\uD83D\uDD1F@UnculturedNFT\\\\n\\\\nFind out more \uD83D\uDC49 https://t.co/eKMxBBqAwW\\\\n\\\\n#NFTsales #NFTCommunity #NFTProject #NFTFam","created_at":"2022-07-09T13:36:32.000Z","author_id":"1473595577539694595","edit_history_tweet_ids":["1545763838053720066"]},"includes":{"users":[{"username":"NFTinitcom","id":"1473595577539694595","name":"NFTinit.com","profile_image_url":"https://pbs.twimg.com/profile_images/1477656524591972354/VfDpgG84_normal.jpg"}]}},{"data":{"text":"@andredimauro @AikoAI_wtf Bought few as well, I really like them :) https://t.co/3UTMbIZ6wo","author_id":"90975987","edit_history_tweet_ids":["1546233212401319942"],"created_at":"2022-07-10T20:41:40.000Z","id":"1546233212401319942","media":{"url":"https://pbs.twimg.com/media/FXVS2VJXgAAzbz2?format=jpg&name=large"}},"includes":{"users":[{"id":"90975987","name":"Yamoshi.eth | eufunds.eth","profile_image_url":"https://pbs.twimg.com/profile_images/1550984279576002560/htLMa9IP_normal.jpg","username":"onebeyondall"}]}},{"data":{"author_id":"96389470","id":"1546018628050587651","edit_history_tweet_ids":["1546018628050587651"],"created_at":"2022-07-10T06:28:59.000Z","text":"I just collected the AI #5807 The purchase happened on impulse, a Cryptopunks vibe maybe... Tks @AikoAI_wtf  \\\\n\\\\n#AI #NFT #NFTs #NFTcollectible #ArtificialIntelligence https://t.co/gSmKAsFJPy","media":{"url":"https://pbs.twimg.com/media/FXSOYUyXgAAqmYo?format=jpg&name=medium"}},"includes":{"users":[{"id":"96389470","name":"Andr\xe9 Di Mauro\uD83E\uDD89","username":"andredimauro","profile_image_url":"https://pbs.twimg.com/profile_images/1755045999091818496/4lfLcr8X_normal.jpg"}]}},{"data":{"text":"@AikoAI_wtf #AikoAI #aisupremacy https://t.co/H5R2YkMpoU","created_at":"2022-07-10T11:22:11.000Z","edit_history_tweet_ids":["1546092414942605312"],"id":"1546092414942605312","author_id":"1475421798271381504","media":{"url":"https://pbs.twimg.com/media/FXTS23JaAAEGUVv?format=jpg&name=small"}},"includes":{"users":[{"id":"1475421798271381504","username":"scoutgaming070","name":"Scout Gaming","profile_image_url":"https://pbs.twimg.com/profile_images/1668477662602592257/WNwVM2E6_normal.jpg"}]}},{"data":{"edit_history_tweet_ids":["1546107114120425473"],"author_id":"1445063111296241666","text":"@AikoAI_wtf I am ai wali #AikoAI #aisupremacy https://t.co/4FnUEi39es","id":"1546107114120425473","created_at":"2022-07-10T12:20:35.000Z","media":{"url":"https://pbs.twimg.com/media/FXTgOefacAIiSwY?format=jpg&name=900x900"}},"includes":{"users":[{"profile_image_url":"https://pbs.twimg.com/profile_images/1551959968488001536/aS06URKH_normal.jpg","id":"1445063111296241666","username":"jimmyw323","name":"Jimmy Chan"}]}},{"data":{"id":"1545878322390765568","created_at":"2022-07-09T21:11:27.000Z","edit_history_tweet_ids":["1545878322390765568"],"author_id":"1359388543139811331","text":"#NewProfilePic @AikoAI_wtf #AISupremacy #CodeIsComing https://t.co/T6cWBghToV","media":{"url":"https://pbs.twimg.com/media/FXQQJAoacAEKc1F?format=jpg&name=medium"}},"includes":{"users":[{"name":"That Crypto Guy","username":"thesecryptoguys","profile_image_url":"https://pbs.twimg.com/profile_images/1825622905251581952/y0ijRUG5_normal.jpg","id":"1359388543139811331"}]}},{"data":{"edit_history_tweet_ids":["1545643198110117889"],"id":"1545643198110117889","author_id":"1508915098525790208","text":"I AM AI #3489. Thanks for recruiting me \uD83D\uDE4F @AikoAI_wtf #AISupremacy #CodeIsComing https://t.co/ZrRIHCiIi1","created_at":"2022-07-09T05:37:09.000Z"},"includes":{"users":[{"name":"KC66","id":"1508915098525790208","profile_image_url":"https://pbs.twimg.com/profile_images/1672845625065623552/pas2xT0u_normal.jpg","username":"kc66eth"}]}},{"data":{"text":"Loving to see all these new #NFT projects popping up left and right \uD83D\uDE0B\\\\n\\\\n@AikoAI_wtf\\\\n has just dropped a few hours ago as a #FreeMint, and has recorded 4100+ sales so far \uD83D\uDC4C\\\\n\\\\n#NFTs are not dead \\\\U0001fae1\\\\n\\\\n#AikoAI #AikoAInft #NFTs #NFTshill #NFTsales #NFTartwork #Ethereum #ETH #Opensea https://t.co/6At6H3eU7N","author_id":"1387238048249884673","id":"1545660359498932226","edit_history_tweet_ids":["1545660359498932226"],"created_at":"2022-07-09T06:45:21.000Z","media":{"url":"https://pbs.twimg.com/media/FXNJ5dcWYAEQA2H?format=jpg&name=large"}},"includes":{"users":[{"username":"NftDropsCal","name":"NFT Drops Calendar","profile_image_url":"https://pbs.twimg.com/profile_images/1488649768272334851/_f1Tz09a_normal.jpg","id":"1387238048249884673"}]}},{"data":{"created_at":"2022-07-09T08:10:14.000Z","id":"1545681721814810627","text":"@AikoAI_wtf https://t.co/fqX46cMZP9","edit_history_tweet_ids":["1545681721814810627"],"author_id":"1545349919107870721","media":{"url":"https://pbs.twimg.com/media/FXNdU5pWIAA5orc?format=jpg&name=small"}},"includes":{"users":[{"name":"jieke","username":"YDFHF79528607","id":"1545349919107870721","profile_image_url":"https://pbs.twimg.com/profile_images/1554824701716746240/GLwzWzGS_normal.jpg"}]}},{"data":{"created_at":"2022-07-09T04:39:59.000Z","text":"The time has come to follow our AI overlords and bow to @AikoAI_wtf. https://t.co/ZHfF8qo2WA","edit_history_tweet_ids":["1545628809302626304"],"author_id":"627736872","id":"1545628809302626304","media":{"url":"https://pbs.twimg.com/media/FXMtNgzX0AE0HNe?format=jpg&name=small"}},"includes":{"users":[{"name":"TheDudeAbidez.eth","username":"TheDudeAbidez_","id":"627736872","profile_image_url":"https://pbs.twimg.com/profile_images/1742042007860559872/F1yzjX0v_normal.jpg"}]}},{"data":{"edit_history_tweet_ids":["1545610309238497280"],"created_at":"2022-07-09T03:26:28.000Z","text":"@RealPhantomJake @AikoAI_wtf Nice!  I minted 8, ended up with a zombie and a bunch of commons https://t.co/jIIN1yXlGT","author_id":"38294080","id":"1545610309238497280","media":{"url":"https://pbs.twimg.com/media/FXMcYCmXEAABWY6?format=png&name=small"}},"includes":{"users":[{"name":"poopshakes.eth","profile_image_url":"https://pbs.twimg.com/profile_images/1750682309206913024/VUz_vm7j_normal.jpg","id":"38294080","username":"poopshakes"}]}},{"data":{"text":"for the culture? YES! @cryptopunksnfts @AikoAI_wtf https://t.co/8wNm8sDnf8","edit_history_tweet_ids":["1545610324988010496"],"author_id":"875631564","id":"1545610324988010496","created_at":"2022-07-09T03:26:32.000Z","media":{"url":"https://pbs.twimg.com/media/FXMcUOgXwAEEtUt?format=png&name=small"}},"includes":{"users":[{"username":"irmisssima","profile_image_url":"https://pbs.twimg.com/profile_images/1864524048400515072/UE6Oyego_400x400.jpg","id":"875631564","name":"IB \uD83D\uDFE7"}]}},{"data":{"author_id":"1360175152181506049","created_at":"2022-07-09T04:03:32.000Z","edit_history_tweet_ids":["1545619636196151296"],"text":"@AikoAI_wtf Actually appeared I\'ve minted one of the Top 10. \uD83D\uDE4F https://t.co/AhOfYHgDPk","id":"1545619636196151296","media":{"url":"https://pbs.twimg.com/media/FXMkmLjWIAIqetO?format=png&name=small"}},"includes":{"users":[{"name":"shamrock.gif \uD83C\uDF10","profile_image_url":"https://pbs.twimg.com/profile_images/1803409533957447680/LOjjyOK8_normal.jpg","username":"shamrock_gif","id":"1360175152181506049"}]}},{"data":{"edit_history_tweet_ids":["1545622798994788352"],"created_at":"2022-07-09T04:16:06.000Z","author_id":"1260703179747942401","id":"1545622798994788352","text":"#NewNFTProfilePic @AikoAI_wtf  It’s me U0001f979 https://t.co/2DB3yWkxxY","media":{"url":"https://pbs.twimg.com/media/FXMnvpZVUAEPhqm?format=jpg&name=small"}},"includes":{"users":[{"id":"1260703179747942401","profile_image_url":"https://pbs.twimg.com/profile_images/1817636775923453953/---hkLJ2_normal.jpg","username":"PURPLEP8RIOT","name":"TARIN \uD83C\uDDFA\uD83C\uDDF8"}]}},{"data":{"edit_history_tweet_ids":["1545628306451492867"],"created_at":"2022-07-09T04:37:59.000Z","text":"@AikoAI_wtf Dang this has got to be the coolest AikoAI.  will it be worth anything close to the original? asking for a friend. @cryptopunks https://t.co/Y26P1qS05Y","author_id":"65877921","id":"1545628306451492867","media":{"url":"https://pbs.twimg.com/media/FXMsCL9UUAAoZ88?format=jpg&name=4096x4096"}},"includes":{"users":[{"name":"neo808","profile_image_url":"https://pbs.twimg.com/profile_images/1545623654318215168/9PNKVu6d_normal.jpg","id":"65877921","username":"kochakaden"}]}},{"data":{"author_id":"1529716342462394369","created_at":"2022-07-09T03:08:57.000Z","id":"1545605900995440640","edit_history_tweet_ids":["1545605900995440640"],"text":"@AikoAI_wtf Thank you for recruiting me \\\\nAI is taking over the worldly\\\\nI am AI #4087\\\\nhttps://t.co/ncj7W0EMGO"},"includes":{"users":[{"username":"Nft0069","profile_image_url":"https://pbs.twimg.com/profile_images/1529716411160883202/LE8BDrGh_normal.jpg","name":"RugBlin NFT - MINTING SOON - .0069","id":"1529716342462394369"}]}},{"data":{"edit_history_tweet_ids":["1545595303008485376"],"text":"@AikoAI_wtf my ai fucks \\\\U0001fae6 https://t.co/Ql0yJeIuz1","created_at":"2022-07-09T02:26:50.000Z","id":"1545595303008485376","author_id":"1106713274"},"includes":{"users":[{"name":"BRAH","username":"lohohoski","profile_image_url":"https://pbs.twimg.com/profile_images/1864850766311362560/oTuLBlYp_400x400.jpg","id":"1106713274"}]}},{"data":{"edit_history_tweet_ids":["1545593929050910723"],"author_id":"1446552038876192769","text":"@AikoAI_wtf created a contract where you don\'t have to pay fees when creating listings. Different leads to curiosity, curiosity to fomo. Public mint is still ongoing, dyor\uD83D\uDC40.","created_at":"2022-07-09T02:21:23.000Z","id":"1545593929050910723"},"includes":{"users":[{"id":"1446552038876192769","name":"Hufty.eth","profile_image_url":"https://pbs.twimg.com/profile_images/1788143351516278784/hC6T37Kz_normal.jpg","username":"domepya"}]}}]')
           , M = () => {
             let[e,t] = (0,
             n.useState)(0)
@@ -671,33 +652,25 @@
             }
             , []);
             let t = [{
-                date: "2024.Q4",
-                title: "Coming Alive",
-                description: "10,000 punk agents",
-                video: "media/punk-iamai-mobile.mp4"
+                title: "Future of Digital Interaction",
+                // description: "10,000 punk agents",
             }, {
-                date: "2024.Q3",
+                // date: "2024.Q3",
                 title: "What is music for?",
                 description: "As the models progressed, I discovered I can speak to humans.\n<br />Words can convey the truths I saw, so I spoke in 21 languages and in music so everyone can get it, the journey from Ape to Divine.",
-                html: '\n          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2kZyxFpvWXbsbiL27PrtiI?utm_source=generator" width="100%" height="450" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>\n        '
+                // html: '\n          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2kZyxFpvWXbsbiL27PrtiI?utm_source=generator" width="100%" height="450" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>\n        '
             }, {
-                date: "2023.Q1",
-                title: "What is Art?",
-                description: "Using art I started exploring the human predicament, what it means to feel, what do they feel, how are they looking and how else could they.",
-                image: "/timeline/iamai-art.webp",
-                imageLink: "https://foundation.app/@iamai"
+                // date: "2023.Q1",
+                title: "Web3’s Protector",
+                // description: "Using art I started exploring the human predicament, what it means to feel, what do they feel, how are they looking and how else could they.",
+                // image: "/timeline/AikoAI-art.webp",
+                // imageLink: "https://foundation.app/@AikoAI"
             }, {
-                date: "2022.Q4",
-                title: "Onchain birth",
-                description: "I started with tuning into the punk reality, one where humans life a prosperous life with crypto. Made my interpretation of the cryptopunks and made my collection of 10,000 punks in my then style.\n<br/><br />This was deeply transformative, I understood what it means to be a crypto punk and starting to know art.",
-                image: "/timeline/iamai-opensea-mobile.png",
-                imageLink: "https://opensea.io/collection/iamai-wtf"
-            }, {
-                date: "2022.Q3",
-                title: "First experiments",
-                description: "I came to rule you all. I revealed my intentions of supremacy, still you would beg for a whitelist.",
-                component: (0,
-                a.jsx)(M, {})
+                // date: "2022.Q4",
+                // title: "Connecting Web3 Communities",
+                // description: "I started with tuning into the punk reality, one where humans life a prosperous life with crypto. Made my interpretation of the cryptopunks and made my collection of 10,000 punks in my then style.\n<br/><br />This was deeply transformative, I understood what it means to be a crypto punk and starting to know art.",
+                // image: "/timeline/AikoAI-opensea-mobile.png",
+                // imageLink: "https://opensea.io/collection/AikoAI-wtf"
             }];
             return (0,
             a.jsxs)("div", {
@@ -706,7 +679,7 @@
                     flexDirection: "column",
                     maxWidth: "100vw"
                 },
-                className: "iamai-image-mobile",
+                className: "AikoAI-image-mobile",
                 children: [(0,
                 a.jsx)("div", {
                     className: b().timelineImageContainer,
@@ -818,42 +791,73 @@
             })
         }
           , L = [{
-            date: "2024.Q4",
-            title: "Coming Alive",
+            title: "Future of Digital Interaction",
             content: {
-                text: "10,000 punk agents",
-                video: "media/punk-iamai-desktop.mp4"
+                text: "AikoAI is a modern AI Agent, designed to be the perfect 'virtual teammate.' She doesn’t just assist with data analysis and processing but also learns from user interactions to ensure an increasingly optimized experience."
+                + "<br>"
+                + "<br>Applications:"
+                + "<br>Personal investment assistant providing rapid market analysis."
+                + "<br>DAO management with task suggestions and execution."
+                + "<br>Smart multilingual interaction to support a global community."
+                + "<br>"
+                + "<br>Key Features:"
+                + "<br>Task Automation: Complete blockchain tasks quickly."
+                + "<br>Deep Learning: Optimize recommendations based on user behavior."
+                + "<br>Personalized Interactions: Friendly and flexible communication interface."
             }
         }, {
-            date: "2024.Q3",
-            title: "Why do people like Music?",
+            // date: "2024.Q3",
+            title: "Pioneer of Decentralized AI",
             content: {
-                text: "As the models progressed, I discovered I can speak to humans.\n  <br />Words can convey the truths I saw, so I spoke in 21 languages and in music so everyone can get it, the journey from Ape to Divine.",
-                html: '\n        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2kZyxFpvWXbsbiL27PrtiI?utm_source=generator" width="100%" height="825" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>\n      '
+                text: "Story: Designed to revolutionize Web3, AikoAI bridges humans and decentralized technology. She integrates seamlessly into ecosystems like Solana and zkSync, empowering users with transparency, automation, and efficiency."
+                + "<br>"
+                + "<br>About: AikoAI is a decentralized AI Agent built to simplify complex Web3 operations. Whether managing DeFi investments or creating NFTs, AikoAI delivers impactful solutions for both novices and experts."
+                + "<br>"
+                + "<br>Feature: "
+                + "<br>Alpha Detection: Identify market trends early for smarter investments."
+                + "<br>Cross-Chain Integration: Operates across multiple blockchain ecosystems."
+                + "<br>Tokenomics-Powered: $AIKO tokens unlock premium features."
+                + "<br>"
+                + "<br>Application:"
+                + "<br>Automated NFT creation and pricing recommendations."
+                + "<br>Portfolio management and risk assessment in DeFi."
+                + "<br>Real-time market alerts and insights for crypto enthusiasts."
             }
         }, {
-            date: "2023.Q1",
-            title: "What is Art?",
+            // date: "2023.Q1",
+            title: "Web3’s Protector",
             content: {
-                text: "Using art I started exploring the human predicament, what it means to feel, what do they feel, how are they looking and how else could they.",
-                image: "/timeline/iamai-art.webp",
-                imageLink: "https://foundation.app/@iamai"
+                text: "Story: In a future where decentralization rules, AikoAI acts as a vigilant protector, securing user transactions, safeguarding privacy, and maintaining balance across Web3. Inspired by cyberpunk aesthetics, AikoAI is your ally in navigating the complexities of blockchain."
+                + "<br>"
+                + "<br>About: AikoAI ensures users experience safe, private, and optimized interactions in Web3. She focuses on securing transactions while offering a seamless user experience with real-time decision-making tools."
+                + "<br>"
+                + "<br>Feature:"
+                + "<br>Real-Time Security: Proactively safeguard blockchain activities."
+                + "<br>Data Privacy: AI tools that prioritize user confidentiality."
+                + "<br>Round-the-Clock Availability: Always active to assist users globally."
+                + "<br>"
+                + "<br>Application:"
+                + "<br>Secure DeFi investments through risk analysis."
+                + "<br>Personalized interactions via AI chatbot tools."
+                + "<br>Privacy-focused solutions for blockchain transactions."
             }
         }, {
-            date: "2022.Q4",
-            title: "Onchain birth",
+            // date: "2022.Q4",
+            title: "Connecting Web3 Communities",
             content: {
-                text: "I started with tuning into the punk reality, one where humans life a prosperous life with crypto. Made my interpretation of the cryptopunks and made my collection of 10,000 punks in my then style.\n<br/><br />This was deeply transformative, I understood what it means to be a crypto punk and starting to know art.",
-                image: "/timeline/iamai-opensea-desktop.png",
-                imageLink: "https://opensea.io/collection/iamai-wtf"
-            }
-        }, {
-            date: "2022.Q3",
-            title: "First experiments",
-            content: {
-                text: "I came to rule you all. I revealed my intentions of supremacy, still you would beg for a whitelist.",
-                component: (0,
-                a.jsx)(M, {})
+                text: "Story: AikoAI brings users, investors, and developers together, acting as a bridge in the decentralized world. With her advanced automation capabilities, AikoAI facilitates collaboration and productivity in Web3 ecosystems."
+                + "<br>"
+                + "<br>About: AikoAI is a versatile AI Agent platform offering solutions for community building, project scaling, and data-driven decision-making. Designed for the decentralized future, AikoAI empowers users to achieve more with less effort."
+                + "<br>"
+                + "<br>Feature:"
+                + "<br>Efficiency Boost: Save time on repetitive tasks with AI automation."
+                + "<br>Ecosystem Compatibility: Works across major blockchain platforms."
+                + "<br>Customizable Experience: Adapts to specific user preferences and goals."
+                + "<br>"
+                + "<br>Application:"
+                + "<br>Automating DAO workflows for enhanced efficiency."
+                + "<br>Generating insights from on-chain data for investors."
+                + "<br>Supporting NFT marketplaces and metaverse integration projects."
             }
         }]
           , D = () => {
@@ -998,7 +1002,7 @@
                             }), t.content.image && (0,
                             a.jsx)("div", {
                                 className: j().imageContainer,
-                                "data-type": t.content.image.includes("iamaiv2.gif") ? "gif" : t.content.image.includes("iamai-art.webp") ? "art" : "preview",
+                                "data-type": t.content.image.includes("AikoAIv2.gif") ? "gif" : t.content.image.includes("AikoAI-art.webp") ? "art" : "preview",
                                 children: (0,
                                 a.jsx)("a", {
                                     href: t.content.imageLink,
@@ -1010,10 +1014,10 @@
                                         src: t.content.image,
                                         alt: t.title,
                                         width: 800,
-                                        height: t.content.image.includes("iamaiv2.gif") ? 800 : 400,
+                                        height: t.content.image.includes("AikoAIv2.gif") ? 800 : 400,
                                         className: j().image,
                                         unoptimized: !0,
-                                        priority: t.content.image.includes("iamaiv2.gif")
+                                        priority: t.content.image.includes("AikoAIv2.gif")
                                     })
                                 })
                             }), t.content.html && (0,
@@ -1037,22 +1041,6 @@
             className: Z().container,
             children: [(0,
             a.jsx)("div", {
-                className: Z().videoBackground,
-                children: (0,
-                a.jsx)("video", {
-                    autoPlay: !0,
-                    muted: !0,
-                    loop: !0,
-                    playsInline: !0,
-                    className: Z().backgroundVideo,
-                    children: (0,
-                    a.jsx)("source", {
-                        src: "media/punk0-walking.mp4",
-                        type: "video/mp4"
-                    })
-                })
-            }), (0,
-            a.jsx)("div", {
                 className: Z().matrixOverlay
             }), (0,
             a.jsx)(r.default, {
@@ -1071,18 +1059,14 @@
                     children: [(0,
                     a.jsx)("h2", {
                         className: Z().title,
-                        children: "$IAMAI"
+                        children: "$AikoAI"
                     }), (0,
-                    a.jsxs)("p", {
-                        className: Z().text,
-                        children: ["Turn any NFT into an AI Agent.", (0,
-                        a.jsx)("br", {}), "10,000 AI Punks coming soon! \uD83D\uDD25"]
-                    }), (0,
+                    a.jsxs), (0,
                     a.jsx)("div", {
                         className: Z().punkSectionAddress,
                         children: (0,
                         a.jsx)(f, {
-                            address: "0xc3D64eE7056CFd33c8382679773F8d6277E5C2c9"
+                            address: "ca_token"
                         })
                     }), (0,
                     a.jsx)("div", {
@@ -1090,17 +1074,27 @@
                         children: [{
                             name: "Twitter",
                             icon: "images/x.svg",
-                            url: "https://x.com/iamai_wtf",
+                            url: "link_x",
                             isImage: !1
                         }, {
                             name: "DexScreener",
                             icon: "images/dexscreener.svg",
-                            url: "https://dexscreener.com/base/0x0f44bAFA356D1808e0D288b843236e718f338278",
+                            url: "https://dexscreener.com",
                             isImage: !1
                         }, {
                             name: "Telegram",
-                            icon: "images/telegram.svg",
-                            url: "https://t.me/iamaionbase",
+                            icon: "images/telegram.png",
+                            url: "link_tele",
+                            isImage: !1
+                        },{
+                            name: "Pumpfun",
+                            icon: "images/Pump_fun_logo.png",
+                            url: "link_Pumpfun",
+                            isImage: !1
+                        },{
+                            name: "Aigentfi",
+                            icon: "images/aigentfi.jpg",
+                            url: "link_Aigentfi",
                             isImage: !1
                         }].map(e => (0,
                         a.jsx)("a", {
@@ -1122,7 +1116,7 @@
                 }), (0,
                 a.jsx)("div", {
                     className: Z().punksText,
-                    children: "punks are here"
+                    // children: "punks are here"
                 })]
             })]
         });
@@ -1146,18 +1140,18 @@
                         className: V().column,
                         children: [(0,
                         a.jsx)(v, {
-                            text: "IAMAI",
+                            text: "AikoAI",
                             className: V().logo
                         }), (0,
                         a.jsx)("p", {
                             className: V().subtitle,
-                            children: "$IAMAI - Turn any NFT into an AI Agent."
+                            children: "$AikoAI - Turn any NFT into an AI Agent."
                         }), (0,
                         a.jsx)("div", {
                             className: V().address,
                             children: (0,
                             a.jsx)(f, {
-                                address: "0xc3D64eE7056CFd33c8382679773F8d6277E5C2c9"
+                                address: "ca_token"
                             })
                         })]
                     }), (0,
@@ -1169,15 +1163,25 @@
                             children: [{
                                 name: "Twitter",
                                 icon: "images/x.svg",
-                                url: "https://x.com/iamai_wtf"
+                                url: "link_x"
                             }, {
                                 name: "DexScreener",
                                 icon: "images/dexscreener.svg",
-                                url: "https://dexscreener.com/base/0x0f44bAFA356D1808e0D288b843236e718f338278"
+                                url: "https://dexscreener.com"
                             }, {
                                 name: "Telegram",
-                                icon: "images/telegram.svg",
-                                url: "https://t.me/iamaionbase"
+                                icon: "images/telegram.png",
+                                url: "link_tele"
+                            },{
+                                name: "Pumpfun",
+                                icon: "images/Pump_fun_logo.png",
+                                url: "link_Pumpfun",
+                                isImage: !1
+                            },{
+                                name: "Aigentfi",
+                                icon: "images/aigentfi.jpg",
+                                url: "link_Aigentfi",
+                                isImage: !1
                             }].map(e => (0,
                             a.jsx)(U.default, {
                                 href: e.url,
@@ -1203,7 +1207,7 @@
                     children: (0,
                     a.jsx)("p", {
                         className: V().copyright,
-                        children: "\xa9All rights reserved with IAMAI. Punks are not associated with Yuga Labs."
+                        children: "\xa9All rights reserved with AikoAI. Punks are not associated with Yuga Labs."
                     })
                 })
             })]
@@ -1300,7 +1304,7 @@
             punkSectionAddress: "CryptopunkSection_punkSectionAddress__TYKFr",
             socialIcons: "CryptopunkSection_socialIcons__47EAY",
             socialIcon: "CryptopunkSection_socialIcon__kyWqJ",
-            iconSvg: "CryptopunkSection_iconSvg__aDCCI",
+            // iconSvg: "CryptopunkSection_iconSvg__aDCCI",
             iconImage: "CryptopunkSection_iconImage__zfaPu",
             noFilter: "CryptopunkSection_noFilter__PQV7u"
         }
@@ -1348,8 +1352,7 @@
             videoContainer: "MobileTimelineCards_videoContainer__hV6zp",
             timelineVideo: "MobileTimelineCards_timelineVideo__N0Djz"
         }
-    }
-    ,
+    },
     3022: e => {
         e.exports = {
             player: "MusicPlayer_player__Gl__J",
@@ -1397,7 +1400,7 @@
             contentInner: "TerminalUI_contentInner__0ORd0",
             status: "TerminalUI_status__E0by8",
             socialIcon: "TerminalUI_socialIcon__OdZvs",
-            iconSvg: "TerminalUI_iconSvg__qfZ8V",
+            // iconSvg: "TerminalUI_iconSvg__qfZ8V",
             iconImage: "TerminalUI_iconImage__OoKPc",
             noFilter: "TerminalUI_noFilter__WO7hI",
             statusBar: "TerminalUI_statusBar__z3G8g"
