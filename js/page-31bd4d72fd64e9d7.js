@@ -395,7 +395,7 @@
                             className: m().address,
                             children: (0,
                             a.jsx)(f, {
-                                address: "ca_token"
+                                address: "0xa7Ced13b5C7a3CB1911320AfeD5Ffe41Ec38b960"
                             })
                         }), (0,
                         a.jsx)("div", {
@@ -425,7 +425,7 @@
                             {
                                 name: "Aigentfi",
                                 icon: "images/aigentfi.jpg",
-                                url: "link_Aigentfi",
+                                url: "https://aigentfi.com/token/0xa7Ced13b5C7a3CB1911320AfeD5Ffe41Ec38b960",
                                 isImage: !1
                             }].map(e => (0,
                             a.jsx)("a", {
@@ -1068,7 +1068,7 @@
                         className: Z().punkSectionAddress,
                         children: (0,
                         a.jsx)(f, {
-                            address: "ca_token"
+                            address: "0xa7Ced13b5C7a3CB1911320AfeD5Ffe41Ec38b960"
                         })
                     }), (0,
                     a.jsx)("div", {
@@ -1098,7 +1098,7 @@
                         {
                             name: "Aigentfi",
                             icon: "images/aigentfi.jpg",
-                            url: "link_Aigentfi",
+                            url: "https://aigentfi.com/token/0xa7Ced13b5C7a3CB1911320AfeD5Ffe41Ec38b960",
                             isImage: !1
                         }].map(e => (0,
                         a.jsx)("a", {
@@ -1155,7 +1155,7 @@
                             className: V().address,
                             children: (0,
                             a.jsx)(f, {
-                                address: "ca_token"
+                                address: "0xa7Ced13b5C7a3CB1911320AfeD5Ffe41Ec38b960"
                             })
                         })]
                     }), (0,
@@ -1186,7 +1186,7 @@
                             {
                                 name: "Aigentfi",
                                 icon: "images/aigentfi.jpg",
-                                url: "link_Aigentfi",
+                                url: "https://aigentfi.com/token/0xa7Ced13b5C7a3CB1911320AfeD5Ffe41Ec38b960",
                                 isImage: !1
                             }].map(e => (0,
                             a.jsx)(U.default, {
