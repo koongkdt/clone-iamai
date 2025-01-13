@@ -298,12 +298,12 @@
                             }, {
                                 name: "Telegram",
                                 icon: "images/telegram.png",
-                                url: "link_tele",
+                                url: "https://t.me/AikoAI_Solana",
                                 isImage: !1
                             }, {
                                 name: "Pumpfun",
                                 icon: "images/Pump_fun_logo.png",
-                                url: "link_Pumpfun",
+                                url: "https://pump.fun/board",
                                 isImage: !1
                             }].map(e => (0,
                             a.jsx)("a", {
@@ -918,12 +918,12 @@
                         }, {
                             name: "Telegram",
                             icon: "images/telegram.png",
-                            url: "link_tele",
+                            url: "https://t.me/AikoAI_Solana",
                             isImage: !1
                         },{
                             name: "Pumpfun",
                             icon: "images/Pump_fun_logo.png",
-                            url: "link_Pumpfun",
+                            url: "https://pump.fun/board",
                             isImage: !1
                         }].map(e => (0,
                         a.jsx)("a", {
@@ -1000,11 +1000,11 @@
                             }, {
                                 name: "Telegram",
                                 icon: "images/telegram.png",
-                                url: "link_tele"
+                                url: "https://t.me/AikoAI_Solana"
                             },{
                                 name: "Pumpfun",
                                 icon: "images/Pump_fun_logo.png",
-                                url: "link_Pumpfun",
+                                url: "https://pump.fun/board",
                                 isImage: !1
                             }].map(e => (0,
                             a.jsx)(U.default, {
