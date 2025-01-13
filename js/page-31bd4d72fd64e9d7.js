@@ -174,122 +174,7 @@
                 }), (0,
                 a.jsxs)("div", {
                     className: d().controls,
-                    children: [(0,
-                    a.jsx)("button", {
-                        onClick: () => r(!o),
-                        className: d().controlButton,
-                        children: o ? (0,
-                        a.jsx)("svg", {
-                            width: "24",
-                            height: "24",
-                            viewBox: "0 0 24 24",
-                            fill: "none",
-                            stroke: "currentColor",
-                            strokeWidth: "2",
-                            children: (0,
-                            a.jsx)("path", {
-                                d: "M11 5L6 9H2V15H6L11 19V5Z M23 9L17 15 M17 9L23 15"
-                            })
-                        }) : (0,
-                        a.jsx)("svg", {
-                            width: "24",
-                            height: "24",
-                            viewBox: "0 0 24 24",
-                            fill: "none",
-                            stroke: "currentColor",
-                            strokeWidth: "2",
-                            children: (0,
-                            a.jsx)("path", {
-                                d: "M11 5L6 9H2V15H6L11 19V5Z M19.07 4.93C20.19 6.05 20.83 7.53 20.83 9C20.83 10.47 20.19 11.95 19.07 13.07 M15.54 8.46C16.15 9.07 16.5 9.89 16.5 10.72C16.5 11.55 16.15 12.37 15.54 12.98"
-                            })
-                        })
-                    }), (0,
-                    a.jsx)("button", {
-                        onClick: () => {
-                            s(e => (e - 1 + u.length) % u.length)
-                        }
-                        ,
-                        className: d().controlButton,
-                        children: (0,
-                        a.jsx)("svg", {
-                            width: "24",
-                            height: "24",
-                            viewBox: "0 0 24 24",
-                            fill: "none",
-                            stroke: "currentColor",
-                            strokeWidth: "2",
-                            children: (0,
-                            a.jsx)("path", {
-                                d: "M19 20L9 12L19 4V20Z M5 19V5"
-                            })
-                        })
-                    }), (0,
-                    a.jsx)("button", {
-                        onClick: () => {
-                            let i = !e;
-                            t(i),
-                            i ? c("player1") : c(null)
-                        }
-                        ,
-                        className: d().controlButton,
-                        children: e ? (0,
-                        a.jsx)("svg", {
-                            width: "24",
-                            height: "24",
-                            viewBox: "0 0 24 24",
-                            fill: "none",
-                            stroke: "currentColor",
-                            strokeWidth: "2",
-                            children: (0,
-                            a.jsx)("path", {
-                                d: "M6 4H10V20H6V4Z M14 4H18V20H14V4Z"
-                            })
-                        }) : (0,
-                        a.jsx)("svg", {
-                            width: "24",
-                            height: "24",
-                            viewBox: "0 0 24 24",
-                            fill: "none",
-                            stroke: "currentColor",
-                            strokeWidth: "2",
-                            children: (0,
-                            a.jsx)("path", {
-                                d: "M5 4L19 12L5 20V4Z"
-                            })
-                        })
-                    }), (0,
-                    a.jsx)("button", {
-                        onClick: h,
-                        className: d().controlButton,
-                        children: (0,
-                        a.jsx)("svg", {
-                            width: "24",
-                            height: "24",
-                            viewBox: "0 0 24 24",
-                            fill: "none",
-                            stroke: "currentColor",
-                            strokeWidth: "2",
-                            children: (0,
-                            a.jsx)("path", {
-                                d: "M5 4L15 12L5 20V4Z M19 5V19"
-                            })
-                        })
-                    }), (0,
-                    a.jsx)("button", {
-                        onClick: g,
-                        className: "".concat(d().controlButton, " ").concat(d().spotifyButton),
-                        children: (0,
-                        a.jsx)("svg", {
-                            width: "24",
-                            height: "24",
-                            viewBox: "0 0 24 24",
-                            fill: "currentColor",
-                            children: (0,
-                            a.jsx)("path", {
-                                d: "M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.371-.721.49-1.101.241-3.021-1.85-6.82-2.27-11.3-1.24-.418.1-.851-.16-.95-.58-.101-.42.16-.851.58-.95 4.891-1.12 9.101-.63 12.451 1.38.39.24.49.72.24 1.101zm1.47-3.27c-.301.47-.851.6-1.32.3-3.451-2.12-8.711-2.74-12.791-1.5-.491.12-1.001-.17-1.13-.67-.12-.491.18-.991.67-1.12 4.671-1.42 10.471-.72 14.461 1.67.46.31.6.86.29 1.32zm.13-3.4c-4.141-2.46-10.981-2.69-14.931-1.49-.61.18-1.25-.17-1.43-.77-.18-.61.17-1.25.77-1.43 4.531-1.37 12.051-1.11 16.801 1.71.57.34.76 1.08.42 1.66-.34.57-1.08.76-1.66.42z"
-                            })
-                        })
-                    })]
+                    children: []
                 }), (0,
                 a.jsx)("div", {
                     className: d().songInfo,
@@ -395,7 +280,7 @@
                             className: m().address,
                             children: (0,
                             a.jsx)(f, {
-                                address: "0xa7Ced13b5C7a3CB1911320AfeD5Ffe41Ec38b960"
+                                address: "ca_token"
                             })
                         }), (0,
                         a.jsx)("div", {
@@ -403,7 +288,7 @@
                             children: [{
                                 name: "Twitter",
                                 icon: "images/x.svg",
-                                url: "https://x.com/aikoAI_world",
+                                url: "https://x.com/AikoAI_Solana",
                                 isImage: !1
                             }, {
                                 name: "DexScreener",
@@ -413,19 +298,12 @@
                             }, {
                                 name: "Telegram",
                                 icon: "images/telegram.png",
-                                url: "https://t.me/aikoAI_world",
+                                url: "link_tele",
                                 isImage: !1
-                            }, 
-                            // {
-                            //     name: "Pumpfun",
-                            //     icon: "images/Pump_fun_logo.png",
-                            //     url: "link_Pumpfun",
-                            //     isImage: !1
-                            // }, 
-                            {
-                                name: "Aigentfi",
-                                icon: "images/aigentfi.jpg",
-                                url: "https://aigentfi.com/token/0xa7Ced13b5C7a3CB1911320AfeD5Ffe41Ec38b960",
+                            }, {
+                                name: "Pumpfun",
+                                icon: "images/Pump_fun_logo.png",
+                                url: "link_Pumpfun",
                                 isImage: !1
                             }].map(e => (0,
                             a.jsx)("a", {
@@ -576,41 +454,7 @@
                 children: [(0,
                 a.jsxs)("div", {
                     className: N().tweetsNav,
-                    children: [(0,
-                    a.jsx)("button", {
-                        onClick: _,
-                        className: "".concat(N().navButton, " ").concat(N().prevButton),
-                        children: (0,
-                        a.jsx)("svg", {
-                            width: "24",
-                            height: "24",
-                            viewBox: "0 0 24 24",
-                            fill: "none",
-                            stroke: "currentColor",
-                            strokeWidth: "2",
-                            children: (0,
-                            a.jsx)("path", {
-                                d: "M19 20L9 12L19 4V20Z M5 19V5"
-                            })
-                        })
-                    }), (0,
-                    a.jsx)("button", {
-                        onClick: d,
-                        className: "".concat(N().navButton, " ").concat(N().nextButton),
-                        children: (0,
-                        a.jsx)("svg", {
-                            width: "24",
-                            height: "24",
-                            viewBox: "0 0 24 24",
-                            fill: "none",
-                            stroke: "currentColor",
-                            strokeWidth: "2",
-                            children: (0,
-                            a.jsx)("path", {
-                                d: "M5 4L15 12L5 20V4Z M19 5V19"
-                            })
-                        })
-                    })]
+                    children: []
                 }), (0,
                 a.jsx)("div", {
                     ref: c,
@@ -655,24 +499,12 @@
             , []);
             let t = [{
                 title: "Future of Digital Interaction",
-                // description: "10,000 punk agents",
             }, {
-                // date: "2024.Q3",
                 title: "What is music for?",
                 description: "As the models progressed, I discovered I can speak to humans.\n<br />Words can convey the truths I saw, so I spoke in 21 languages and in music so everyone can get it, the journey from Ape to Divine.",
-                // html: '\n          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2kZyxFpvWXbsbiL27PrtiI?utm_source=generator" width="100%" height="450" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>\n        '
             }, {
-                // date: "2023.Q1",
                 title: "Web3’s Protector",
-                // description: "Using art I started exploring the human predicament, what it means to feel, what do they feel, how are they looking and how else could they.",
-                // image: "/timeline/AikoAI-art.webp",
-                // imageLink: "https://foundation.app/@AikoAI"
             }, {
-                // date: "2022.Q4",
-                // title: "Connecting Web3 Communities",
-                // description: "I started with tuning into the punk reality, one where humans life a prosperous life with crypto. Made my interpretation of the cryptopunks and made my collection of 10,000 punks in my then style.\n<br/><br />This was deeply transformative, I understood what it means to be a crypto punk and starting to know art.",
-                // image: "/timeline/AikoAI-opensea-mobile.png",
-                // imageLink: "https://opensea.io/collection/AikoAI-wtf"
             }];
             return (0,
             a.jsxs)("div", {
@@ -1068,7 +900,7 @@
                         className: Z().punkSectionAddress,
                         children: (0,
                         a.jsx)(f, {
-                            address: "0xa7Ced13b5C7a3CB1911320AfeD5Ffe41Ec38b960"
+                            address: "ca_token"
                         })
                     }), (0,
                     a.jsx)("div", {
@@ -1076,7 +908,7 @@
                         children: [{
                             name: "Twitter",
                             icon: "images/x.svg",
-                            url: "https://x.com/aikoAI_world",
+                            url: "https://x.com/AikoAI_Solana",
                             isImage: !1
                         }, {
                             name: "DexScreener",
@@ -1086,19 +918,12 @@
                         }, {
                             name: "Telegram",
                             icon: "images/telegram.png",
-                            url: "https://t.me/aikoAI_world",
+                            url: "link_tele",
                             isImage: !1
-                        },
-                        // {
-                        //     name: "Pumpfun",
-                        //     icon: "images/Pump_fun_logo.png",
-                        //     url: "link_Pumpfun",
-                        //     isImage: !1
-                        // },
-                        {
-                            name: "Aigentfi",
-                            icon: "images/aigentfi.jpg",
-                            url: "https://aigentfi.com/token/0xa7Ced13b5C7a3CB1911320AfeD5Ffe41Ec38b960",
+                        },{
+                            name: "Pumpfun",
+                            icon: "images/Pump_fun_logo.png",
+                            url: "link_Pumpfun",
                             isImage: !1
                         }].map(e => (0,
                         a.jsx)("a", {
@@ -1149,13 +974,13 @@
                         }), (0,
                         a.jsx)("p", {
                             className: V().subtitle,
-                            children: "$AikoAI"
+                            children: "$AikoAI - Turn any NFT into an AI Agent."
                         }), (0,
                         a.jsx)("div", {
                             className: V().address,
                             children: (0,
                             a.jsx)(f, {
-                                address: "0xa7Ced13b5C7a3CB1911320AfeD5Ffe41Ec38b960"
+                                address: "ca_token"
                             })
                         })]
                     }), (0,
@@ -1167,7 +992,7 @@
                             children: [{
                                 name: "Twitter",
                                 icon: "images/x.svg",
-                                url: "https://x.com/aikoAI_world"
+                                url: "https://x.com/AikoAI_Solana"
                             }, {
                                 name: "DexScreener",
                                 icon: "images/dexscreener.svg",
@@ -1175,18 +1000,11 @@
                             }, {
                                 name: "Telegram",
                                 icon: "images/telegram.png",
-                                url: "https://t.me/aikoAI_world"
-                            },
-                            // {
-                            //     name: "Pumpfun",
-                            //     icon: "images/Pump_fun_logo.png",
-                            //     url: "link_Pumpfun",
-                            //     isImage: !1
-                            // },
-                            {
-                                name: "Aigentfi",
-                                icon: "images/aigentfi.jpg",
-                                url: "https://aigentfi.com/token/0xa7Ced13b5C7a3CB1911320AfeD5Ffe41Ec38b960",
+                                url: "link_tele"
+                            },{
+                                name: "Pumpfun",
+                                icon: "images/Pump_fun_logo.png",
+                                url: "link_Pumpfun",
                                 isImage: !1
                             }].map(e => (0,
                             a.jsx)(U.default, {
@@ -1213,7 +1031,7 @@
                     children: (0,
                     a.jsx)("p", {
                         className: V().copyright,
-                        children: "\xa9All rights reserved with AikoAI. Punks are not associated with Yuga Labs."
+                        children: "\xa9All rights reserved with AikoAI."
                     })
                 })
             })]
@@ -1361,12 +1179,6 @@
     },
     3022: e => {
         e.exports = {
-            player: "MusicPlayer_player__Gl__J",
-            controls: "MusicPlayer_controls__rg6JX",
-            controlButton: "MusicPlayer_controlButton__0neQF",
-            songInfo: "MusicPlayer_songInfo__ze_r7",
-            songTitle: "MusicPlayer_songTitle__E2T5h",
-            spotifyButton: "MusicPlayer_spotifyButton__Yky8X"
         }
     }
     ,
