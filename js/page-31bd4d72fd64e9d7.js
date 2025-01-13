@@ -280,7 +280,7 @@
                             className: m().address,
                             children: (0,
                             a.jsx)(f, {
-                                address: "ca_token"
+                                address: "7akZTdpWNHUg4TaTEWoLKRMAmaph2RBBXr1hTXkdpump"
                             })
                         }), (0,
                         a.jsx)("div", {
@@ -303,7 +303,7 @@
                             }, {
                                 name: "Pumpfun",
                                 icon: "images/Pump_fun_logo.png",
-                                url: "https://pump.fun/board",
+                                url: "https://pump.fun/coin/7akZTdpWNHUg4TaTEWoLKRMAmaph2RBBXr1hTXkdpump",
                                 isImage: !1
                             }].map(e => (0,
                             a.jsx)("a", {
@@ -900,7 +900,7 @@
                         className: Z().punkSectionAddress,
                         children: (0,
                         a.jsx)(f, {
-                            address: "ca_token"
+                            address: "7akZTdpWNHUg4TaTEWoLKRMAmaph2RBBXr1hTXkdpump"
                         })
                     }), (0,
                     a.jsx)("div", {
@@ -923,7 +923,7 @@
                         },{
                             name: "Pumpfun",
                             icon: "images/Pump_fun_logo.png",
-                            url: "https://pump.fun/board",
+                            url: "https://pump.fun/coin/7akZTdpWNHUg4TaTEWoLKRMAmaph2RBBXr1hTXkdpump",
                             isImage: !1
                         }].map(e => (0,
                         a.jsx)("a", {
@@ -980,7 +980,7 @@
                             className: V().address,
                             children: (0,
                             a.jsx)(f, {
-                                address: "ca_token"
+                                address: "7akZTdpWNHUg4TaTEWoLKRMAmaph2RBBXr1hTXkdpump"
                             })
                         })]
                     }), (0,
@@ -1004,7 +1004,7 @@
                             },{
                                 name: "Pumpfun",
                                 icon: "images/Pump_fun_logo.png",
-                                url: "https://pump.fun/board",
+                                url: "https://pump.fun/coin/7akZTdpWNHUg4TaTEWoLKRMAmaph2RBBXr1hTXkdpump",
                                 isImage: !1
                             }].map(e => (0,
                             a.jsx)(U.default, {
